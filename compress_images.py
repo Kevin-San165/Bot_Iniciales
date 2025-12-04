@@ -8,7 +8,7 @@ def compress_image(input_path, output_path, max_size_kb=450):
     
     # Calcula el tamaño objetivo en bytes
     target_size = max_size_kb * 1024  # Convertir KB a bytes
-    quality = 95  # Calidad inicial
+    quality = 95  # Calidad inicial 95%
     
     while True:
         img.save(output_path, format='JPEG', quality=quality)

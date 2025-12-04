@@ -2,7 +2,7 @@ import os
 import shutil
 import pandas as pd
 
-# Función para leer nombres desde un archivo Excel sin encabezado
+# Función para leer nombres desde un archivo Excel sin encabezadoOOO
 def leer_nombres_desde_excel(archivo_excel):
     df = pd.read_excel(archivo_excel, header=None)  # Lee el archivo sin encabezado
     if df.empty:
